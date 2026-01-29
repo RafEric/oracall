@@ -1,13 +1,16 @@
+import React from "react"; // 🔹 Ajoute ceci
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import About from "./components/About";
 
-export default function App() {
+function App() {
   return (
     <>
-      <Navbar /> 
-      <Hero /> 
+      <Navbar />
+      <Hero />
       <About/>
     </>
   );
 }
+
+export default App;
